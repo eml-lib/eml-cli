@@ -1,6 +1,8 @@
-const fs = require('fs');
-const program = require('commander');
-const eml = require('eml');
+#!/usr/bin/env node
+
+var fs = require('fs');
+var program = require('commander');
+var eml = require('eml');
 
 program
     .version('0.0.1-alpha', '-v, --version')
