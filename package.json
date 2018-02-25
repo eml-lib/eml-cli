@@ -5,16 +5,11 @@
   "description": "EML core",
   "homepage": "https://github.com/eml-lib/eml-cli",
   "repository": "eml-lib/eml-cli",
-  "main": "build.js",
+  "main": "index.js",
   "files": [
     "build.js",
     "README.md"
   ],
-  "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -c -w",
-    "prepublishOnly": "npm run build"
-  },
   "bugs": {
     "url": "https://github.com/eml-lib/eml-cli/issues"
   },
